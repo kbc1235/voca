@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Hello from './componet/Hello';
+import Welecom from './componet/Welecom';
+import World from './componet/World';
+import StyleCom from './componet/StyleCom';
+import StyleCom2 from './componet/StyleCom2';
+import StyleCom3 from './componet/StyleCom3';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hello />
+      <Welecom />
+      <World />
+      <StyleCom />
+      <StyleCom2 />
+      <StyleCom3 />
     </div>
   );
 }
